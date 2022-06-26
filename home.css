@@ -1,0 +1,85 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&family=Special+Elite&display=swap');
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0%;
+    border: 2px solid black;
+    background-color: yellow;
+    border-radius:25px ;
+}
+li{
+    flex-grow: 1;
+    flex-shrink: 1;
+    
+}
+#heading{
+    text-align: center;
+}
+#listcontent{
+    font-family: 'Special Elite', cursive;
+    color: black;
+}
+body{
+    background-color: darkcyan;
+}
+a{
+    text-decoration: none;
+}
+#image{
+    width: 350px;
+    height: 350px;
+   
+
+}
+#hello{
+    font-weight: 100;
+   font-size: 110px;
+   font-family: 'Special Elite', cursive;
+   color:rgb(89, 13, 129);
+   text-shadow:6px 6px grey;
+   
+}
+/*
+#other1{
+    position: absolute;
+        top: 50%;
+        left:50%;
+        transform:translate(-50%,-50%);
+
+    
+}
+*/
+#description{
+
+    font-weight: 10000;
+font-size: xx-large;
+    font-family: 'Source Code Pro', monospace;
+   color:black;
+   text-shadow:1px 1px 1px black;
+   /*backface-visibility: 5   ;background-color: rgb(147, 197, 191)
+0%;*/
+   border-radius: 20px;
+
+}
+.q{
+    text-align: center;
+    color:rgb(64, 64, 19);
+}
+#greetday{
+    text-align:right;
+
+    font-weight: 1000;
+font-size: xx-large;
+    font-family: 'Source Code Pro', monospace;
+   color:black;
+   text-shadow:1px 1px grey;
+}
+#audio{
+    color: darkcyan;
+}
+
